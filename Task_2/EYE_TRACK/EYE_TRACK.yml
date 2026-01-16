@@ -1,0 +1,11 @@
+name: oop_eye_tracking
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - opencv
+  - dlib
+  - numpy
+  - scipy
+  - imutils
+  - pyautogui

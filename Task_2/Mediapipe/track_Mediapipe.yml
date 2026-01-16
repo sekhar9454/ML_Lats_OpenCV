@@ -1,0 +1,14 @@
+name: mediapipe_eye_tracker
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy
+  - scipy
+  - opencv
+  - pip
+  - pip:
+      - mediapipe==0.10.9
+      - protobuf<4
+      - pyautogui
+
